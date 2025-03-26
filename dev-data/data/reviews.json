@@ -1,0 +1,32 @@
+[
+  {
+    "review": "Great property with an amazing view!",
+    "rating": 5,
+    "property": "67e26fee73ac29939fedacab",
+    "user": "67dbd5d736766c8bcf206872"
+  },
+  {
+    "review": "Comfortable and well-maintained.",
+    "rating": 4,
+    "property": "67e26fee73ac29939fedacae",
+    "user": "67dbd5d736766c8bcf206872"
+  },
+  {
+    "review": "Decent place but could be cleaner.",
+    "rating": 3,
+    "property": "67e26fee73ac29939fedacaf",
+    "user": "67dbd5d736766c8bcf206872"
+  },
+  {
+    "review": "Fantastic amenities and friendly staff.",
+    "rating": 5,
+    "property": "67e26fee73ac29939fedacac",
+    "user": "67dbd5d736766c8bcf206872"
+  },
+  {
+    "review": "Not worth the price.",
+    "rating": 2,
+    "property": "67e26fee73ac29939fedacad",
+    "user": "67dbd5d736766c8bcf206872"
+  }
+]

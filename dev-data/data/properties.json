@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Modern Villa",
+    "propertyType": "Villa",
+    "area": 3500,
+    "floors": 2,
+    "age": 2,
+    "overview": "A luxurious modern villa with spacious rooms and a private pool.",
+    "amenities": ["Swimming Pool", "Garden", "Gym", "Parking"],
+    "price": 8399,
+    "bedrooms": 4,
+    "bathroom": 3,
+    "locationName": "Beverly Hills",
+    "exteriorFeatures": ["Balcony", "Private Pool", "Lawn"],
+    "interirorFeatures": ["Modular Kitchen", "Central Air Conditioning"],
+    "communityFeatures": ["Gated Community", "Clubhouse", "Security"],
+    "locations": {
+      "address": "123 Palm Street",
+      "state": "California",
+      "pincode": 90210,
+      "coordinates": [34.0901, -118.4065],
+      "images": ["villa1.jpg", "villa2.jpg"],
+      "nearBy": {
+        "metro": "Beverly Center Station",
+        "schools": "Sunset High School",
+        "hospitals": "Cedars-Sinai Medical Center"
+      }
+    }
+  },
+  {
+    "name": "Urban Apartment",
+    "propertyType": "Apartment",
+    "area": 1200,
+    "floors": 10,
+    "age": 4,
+    "overview": "A well-furnished apartment in the heart of the city.",
+    "amenities": ["Elevator", "24/7 Security", "Gym"],
+    "price": 15000,
+    "bedrooms": 2,
+    "bathroom": 2,
+    "locationName": "Downtown",
+    "exteriorFeatures": ["Balcony"],
+    "interirorFeatures": ["Open Kitchen", "Wooden Flooring"],
+    "communityFeatures": ["Children's Play Area", "Gym"],
+    "locations": {
+      "address": "45 Metro Avenue",
+      "state": "New York",
+      "pincode": 10001,
+      "coordinates": [40.7128, -74.006],
+      "images": ["apartment1.jpg", "apartment2.jpg"],
+      "nearBy": {
+        "metro": "34th Street Station",
+        "schools": "Central Elementary",
+        "hospitals": "NYU Medical Center"
+      }
+    }
+  },
+  {
+    "name": "Countryside Cottage",
+    "propertyType": "Cottage",
+    "area": 2500,
+    "floors": 1,
+    "age": 5,
+    "overview": "A cozy cottage surrounded by nature with mountain views.",
+    "amenities": ["Garden", "Fireplace", "Garage"],
+    "price": 2000,
+    "bedrooms": 3,
+    "bathroom": 2,
+    "locationName": "Green Valley",
+    "exteriorFeatures": ["Patio", "Landscaped Garden"],
+    "interirorFeatures": ["Fireplace", "Wooden Interiors"],
+    "communityFeatures": ["Walking Trails"],
+    "locations": {
+      "address": "789 Hill Road",
+      "state": "Colorado",
+      "pincode": 80401,
+      "coordinates": [39.74, -105.5],
+      "images": ["cottage1.jpg", "cottage2.jpg"],
+      "nearBy": {
+        "metro": "Not Available",
+        "schools": "Green Valley School",
+        "hospitals": "Valley Care Clinic"
+      }
+    }
+  },
+  {
+    "name": "Luxury Penthouse",
+    "propertyType": "flat",
+    "area": 4500,
+    "floors": 15,
+    "age": 2,
+    "overview": "An exclusive penthouse with panoramic city views and modern amenities.",
+    "amenities": ["Infinity Pool", "Home Theater", "Private Elevator"],
+    "price": 10500,
+    "bedrooms": 5,
+    "bathroom": 5,
+    "locationName": "Skyline Tower",
+    "exteriorFeatures": ["Terrace", "Infinity Pool"],
+    "interirorFeatures": ["Smart Home System", "Italian Marble"],
+    "communityFeatures": ["Rooftop Lounge", "Valet Parking"],
+    "locations": {
+      "address": "1 Skyline Plaza",
+      "state": "Texas",
+      "pincode": 75001,
+      "coordinates": [32.7767, -96.797],
+      "images": ["penthouse1.jpg", "penthouse2.jpg"],
+      "nearBy": {
+        "metro": "Downtown Metro",
+        "schools": "Skyline Academy",
+        "hospitals": "City General Hospital"
+      }
+    }
+  },
+  {
+    "name": "Suburban House",
+    "propertyType": "flat",
+    "area": 1800,
+    "floors": 2,
+    "age": 2,
+    "overview": "A family-friendly house with a spacious backyard.",
+    "amenities": ["Garage", "Garden", "Play Area"],
+    "price": 9000,
+    "bedrooms": 4,
+    "bathroom": 3,
+    "locationName": "Sunnydale",
+    "exteriorFeatures": ["Backyard", "Garage"],
+    "interirorFeatures": ["Open Kitchen", "Hardwood Floors"],
+    "communityFeatures": ["Community Park", "Swimming Pool"],
+    "locations": {
+      "address": "456 Maple Drive",
+      "state": "Florida",
+      "pincode": 33101,
+      "coordinates": [25.7617, -80.1918],
+      "images": ["house1.jpg", "house2.jpg"],
+      "nearBy": {
+        "metro": "Sunnydale Station",
+        "schools": "Sunnydale High",
+        "hospitals": "Sunnydale Medical Center"
+      }
+    }
+  }
+]

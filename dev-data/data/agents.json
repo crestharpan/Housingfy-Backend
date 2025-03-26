@@ -1,0 +1,72 @@
+[
+  {
+    "name": "John Doe",
+    "phoneNumber": 9876543210,
+    "photo": "https://example.com/photos/johndoe.jpg",
+    "email": "john.doe@example.com",
+    "joinedDate": "2023-05-15T00:00:00.000Z",
+    "properties": 15,
+    "averageReview": 4.8,
+    "totalSales": 250,
+    "facebook": "https://facebook.com/johndoe",
+    "twitter": "https://twitter.com/johndoe",
+    "instagram": "https://instagram.com/johndoe",
+    "active": true
+  },
+  {
+    "name": "Jane Smith",
+    "phoneNumber": 9123456789,
+    "photo": "https://example.com/photos/janesmith.jpg",
+    "email": "jane.smith@example.com",
+    "joinedDate": "2022-11-20T00:00:00.000Z",
+    "properties": 10,
+    "averageReview": 4.6,
+    "totalSales": 180,
+    "facebook": "https://facebook.com/janesmith",
+    "twitter": "https://twitter.com/janesmith",
+    "instagram": "https://instagram.com/janesmith",
+    "active": true
+  },
+  {
+    "name": "Alice Johnson",
+    "phoneNumber": 9234567890,
+    "photo": "https://example.com/photos/alicejohnson.jpg",
+    "email": "alice.johnson@example.com",
+    "joinedDate": "2024-02-10T00:00:00.000Z",
+    "properties": 12,
+    "averageReview": 4.7,
+    "totalSales": 200,
+    "facebook": "https://facebook.com/alicejohnson",
+    "twitter": "https://twitter.com/alicejohnson",
+    "instagram": "https://instagram.com/alicejohnson",
+    "active": true
+  },
+  {
+    "name": "Bob Williams",
+    "phoneNumber": 9345678901,
+    "photo": "https://example.com/photos/bobwilliams.jpg",
+    "email": "bob.williams@example.com",
+    "joinedDate": "2021-08-05T00:00:00.000Z",
+    "properties": 8,
+    "averageReview": 4.4,
+    "totalSales": 150,
+    "facebook": "https://facebook.com/bobwilliams",
+    "twitter": "https://twitter.com/bobwilliams",
+    "instagram": "https://instagram.com/bobwilliams",
+    "active": false
+  },
+  {
+    "name": "Charlie Brown",
+    "phoneNumber": 9456789012,
+    "photo": "https://example.com/photos/charliebrown.jpg",
+    "email": "charlie.brown@example.com",
+    "joinedDate": "2020-04-12T00:00:00.000Z",
+    "properties": 20,
+    "averageReview": 4.9,
+    "totalSales": 300,
+    "facebook": "https://facebook.com/charliebrown",
+    "twitter": "https://twitter.com/charliebrown",
+    "instagram": "https://instagram.com/charliebrown",
+    "active": false
+  }
+]
