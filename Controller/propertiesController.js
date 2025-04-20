@@ -75,6 +75,7 @@ exports.getFilterProperties = async (req, res) => {
     // locations.city:location,
     locationName,
     propertyType,
+
     price: { $gte: minPrice, $lte: maxPrice },
 
     bhk,

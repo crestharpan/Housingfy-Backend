@@ -5,6 +5,8 @@ const reviewController = require('../Controller/reviewController');
 
 router.post('/', authController.adminCredentials);
 router.post('/login', authController.adminLogin);
+router.get('/logout', authController.adminLogout);
+router.get('/login/:id', authController.getAdmin);
 
 router.post('/forgotPassword', authController.forgotPassword);
 router.patch('/resetPassword/:token', authController.resetPassword);

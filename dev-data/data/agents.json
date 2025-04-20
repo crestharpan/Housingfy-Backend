@@ -8,9 +8,12 @@
     "properties": 15,
     "averageReview": 4.8,
     "totalSales": 250,
-    "facebook": "https://facebook.com/johndoe",
-    "twitter": "https://twitter.com/johndoe",
-    "instagram": "https://instagram.com/johndoe",
+    "social": {
+      "facebook": "https://facebook.com/johndoe",
+      "instagram": "https://instagram.com/johndoe",
+      "whatsapp": "https://wa.me/9876543210",
+      "twitter": "https://twitter.com/johndoe"
+    },
     "active": true
   },
   {
@@ -22,9 +25,12 @@
     "properties": 10,
     "averageReview": 4.6,
     "totalSales": 180,
-    "facebook": "https://facebook.com/janesmith",
-    "twitter": "https://twitter.com/janesmith",
-    "instagram": "https://instagram.com/janesmith",
+    "social": {
+      "facebook": "https://facebook.com/janesmith",
+      "instagram": "https://instagram.com/janesmith",
+      "whatsapp": "https://wa.me/9123456789",
+      "twitter": "https://twitter.com/janesmith"
+    },
     "active": true
   },
   {
@@ -36,9 +42,12 @@
     "properties": 12,
     "averageReview": 4.7,
     "totalSales": 200,
-    "facebook": "https://facebook.com/alicejohnson",
-    "twitter": "https://twitter.com/alicejohnson",
-    "instagram": "https://instagram.com/alicejohnson",
+    "social": {
+      "facebook": "https://facebook.com/alicejohnson",
+      "instagram": "https://instagram.com/alicejohnson",
+      "whatsapp": "https://wa.me/9234567890",
+      "twitter": "https://twitter.com/alicejohnson"
+    },
     "active": true
   },
   {
@@ -50,9 +59,12 @@
     "properties": 8,
     "averageReview": 4.4,
     "totalSales": 150,
-    "facebook": "https://facebook.com/bobwilliams",
-    "twitter": "https://twitter.com/bobwilliams",
-    "instagram": "https://instagram.com/bobwilliams",
+    "social": {
+      "facebook": "https://facebook.com/bobwilliams",
+      "instagram": "https://instagram.com/bobwilliams",
+      "whatsapp": "https://wa.me/9345678901",
+      "twitter": "https://twitter.com/bobwilliams"
+    },
     "active": false
   },
   {
@@ -64,9 +76,12 @@
     "properties": 20,
     "averageReview": 4.9,
     "totalSales": 300,
-    "facebook": "https://facebook.com/charliebrown",
-    "twitter": "https://twitter.com/charliebrown",
-    "instagram": "https://instagram.com/charliebrown",
+    "social": {
+      "facebook": "https://facebook.com/charliebrown",
+      "instagram": "https://instagram.com/charliebrown",
+      "whatsapp": "https://wa.me/9456789012",
+      "twitter": "https://twitter.com/charliebrown"
+    },
     "active": false
   }
 ]

@@ -128,3 +128,23 @@ exports.resetPassword = async (req, res, next) => {
   //4)LOG THE USER IN AND SEND JWT
   createNewToken(admin, 200, res);
 };
+
+exports.getAdmin = async (req, res) => {
+  const admin = await Admin.findById(req.params.id);
+  res.status(200).json({
+    status: 'success',
+    data: admin,
+  });
+};
+
+exports.adminLogout = async (req, res) => {
+  res.cookie('jwt', '', {
+    expires: new Date(0), // Expire immediately
+    httpOnly: true, // Prevent access via JavaScript
+    secure: true, // Secure in production (HTTPS)
+    sameSite: 'None', // Avoid CORS issues
+  });
+  res.status(200).json({
+    status: 'success',
+  });
+};
