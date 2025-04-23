@@ -2,18 +2,22 @@ const Agent = require('../Model/agentModel');
 
 exports.create = async (req, res) => {
   const newAgent = await Agent.create({
-    name: req.body.name,
-    phoneNumber: req.body.phoneNumber,
-    photo: req.body.photo,
+    name: req.body.fullName,
+    address: req.body.address,
+    phoneNumber: req.body.phone,
+    // photo: req.body.photo,
     email: req.body.email,
-    joinedDate: req.body.joinedDate,
-    averageReview: req.body.averageReview,
-    properties: req.body.properties,
+    // joinedDate: req.body.joinedDate,
+    properties: req.body.propertiesManaged,
     totalSales: req.body.totalSales,
-    facebook: req.body.facebook,
-    insta: req.body.insta,
-    twitter: req.body.twitter,
-    active: req.body.active,
+    photo: req.body.photo.name,
+
+    social: {
+      facebook: req.body.facebookUrl,
+      insta: req.body.instagramUrl,
+      twitter: req.body.twitterUrl,
+    },
+    // active: req.body.active,
   });
   res.status(200).json({
     status: 'Success',

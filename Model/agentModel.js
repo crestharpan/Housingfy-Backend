@@ -82,6 +82,10 @@ const agentSchema = new mongoose.Schema({
     type: socialSchema,
     default: {},
   },
+  address: {
+    type: String,
+    required: false,
+  },
 });
 const Agent = mongoose.model('Agent', agentSchema);
 module.exports = Agent;
