@@ -39,7 +39,9 @@ adminSchema.methods.correctPassword = async function (
   candidatePassword,
   adminPassword
 ) {
-  return await bcrypt.compare(candidatePassword, adminPassword);
+  const result = await bcrypt.compare(candidatePassword, adminPassword);
+  console.log('The password is :', result);
+  return result;
 };
 
 adminSchema.methods.createResetToken = function () {

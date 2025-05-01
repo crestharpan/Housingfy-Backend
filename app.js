@@ -35,19 +35,6 @@ app.set('views', path.join(__dirname, 'views'));
 //IT WILL RETURN REQ HEADER
 app.use(morgan('dev'));
 
-//SESSION CONFIGURATION
-app.use(
-  session({
-    secret: 'my-one-and-only-super-long-secret-for-the-better-encryption', // Used to sign the session ID cookie
-    resave: false, // Forces the session to be saved back to the store
-    saveUninitialized: true, // Saves new sessions even if they haven't been modified
-    cookie: {
-      secure: false, // If true, the cookie is only sent over HTTPS
-      httpOnly: true, // Prevents client-side JavaScript from accessing the cookie
-      maxAge: 1000 * 10, // Sets expiration time (1 hour)
-    },
-  })
-);
 app.use(express.static('public'));
 
 app.use('/api/V1/admin/agents', agentRouter);
